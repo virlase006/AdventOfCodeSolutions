@@ -23,8 +23,7 @@ public abstract class AdventCodeProblemSolver {
     public List<String> readFromFile(String fileName) throws IOException {
         List<String> lines = new ArrayList<>();
         File file = new File(fileName);
-        BufferedReader br
-                = new BufferedReader(new FileReader(file));
+        BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
         while ((line = br.readLine()) != null) {
             lines.add(line);

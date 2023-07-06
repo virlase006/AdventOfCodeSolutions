@@ -65,7 +65,6 @@ public class Day10ProblemSolver extends AdventCodeProblemSolver {
      * @return void
      * */
     private static void executeWithOperationCycle(Map<Integer, Integer> cycleToValueOfX, Integer digit) {
-
         cycleToValueOfX.put(cycleToValueOfX.size(), cycleToValueOfX.get(cycleToValueOfX.size() - 1) + digit);
     }
 }
